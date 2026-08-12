@@ -22,7 +22,7 @@ nav{display:flex;align-items:center;gap:25px}nav a{text-decoration:none;font-siz
 .pill{border:1px solid var(--ruby);color:var(--ruby);padding:7px 15px;border-radius:999px}.menu{display:none;border:0;background:none;font:600 14px "DM Sans"}
 .hero{min-height:100svh;padding:100px 6vw 55px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:4vw;position:relative;background:var(--blue-pale);overflow:hidden}
 .hero:before{content:"";position:absolute;width:470px;height:470px;border:1px solid rgba(115,28,43,.25);border-radius:50%;right:-200px;top:70px}
-.hero-photo{height:min(76vh,850px);background:url("assets/hero.jpg") center 38%/cover;border-radius:220px 220px 12px 12px;box-shadow:-18px 18px 0 var(--ruby)}
+.hero-photo{height:min(76vh,850px);background:url("hero.jpg") center 38%/cover;border-radius:220px 220px 12px 12px;box-shadow:-18px 18px 0 var(--ruby)}
 .hero-card{text-align:center;padding:45px 20px;position:relative;z-index:2}
 .kicker{text-transform:uppercase;letter-spacing:.22em;font-size:11px;font-weight:600}
 h1,h2,h3{font-family:"Italiana",serif;font-weight:400;line-height:1.05}
