@@ -11,8 +11,9 @@ This version includes:
 - Food, drinks, children and FAQ information
 - Hotel/airport placeholders
 - House-fix-up fund
+- The Knot RSVP and registry links
 - Polished first-date and proposal stories
-- Real couple photos
+- A full gallery of real couple photos
 - Mobile-friendly styling
 
 ## Publishing
@@ -22,5 +23,3 @@ Upload the full folder to Netlify Drop, GitHub Pages, Cloudflare Pages, or Verce
 - Final ceremony address/details
 - The two hotel booking links
 - Hotel shuttle specifics
-- House-fund payment link
-- Live RSVP form
