@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=13">
 </head>
 <body>
   <header class="nav-wrap">
@@ -17,13 +17,13 @@
     <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav id="nav">
       <a href="#day">The Day</a>
-      <a href="#photos">Photos</a>
-      <a href="#details">Details</a>
-      <a href="#travel">Stay</a>
-      <a href="#story">About Us</a>
-      <a href="#registry">Home Fund</a>
-      <a href="#faq">Questions</a>
       <a class="pill" href="https://www.theknot.com/us/bailey-hallmark-and-jack-stephenson-nov-2026-e4fc3bc4-2d29-4ac3-b4b5-a7463aa567ab/rsvp" target="_blank" rel="noopener">RSVP</a>
+      <a href="#details">Details</a>
+      <a href="#faq">Questions</a>
+      <a href="#travel">Stay</a>
+      <a href="#registry">Home Fund</a>
+      <a href="#story">About Us</a>
+      <a href="#photos">Photos</a>
     </nav>
   </header>
 
@@ -45,14 +45,15 @@
       <div><span>Date</span><strong>Saturday, November 7</strong></div>
       <div><span>Reception</span><strong>5:00–10:30 PM</strong></div>
       <div><span>Place</span><strong>Cow Palace, Austin</strong></div>
-      <div><span>RSVP by</span><strong>October 1</strong></div>
+      <div><span>RSVP by</span><strong>October 15</strong></div>
     </section>
 
     <section id="day" class="section day-section">
       <div class="section-title">
         <p class="kicker">Saturday evening</p>
         <h2>The Day</h2>
-        <p>The ceremony will take place separately at approximately 3:00 PM. Reception guests should arrive at Cow Palace at 5:00 PM.</p>
+        <p>Reception guests should arrive at the 'Cow Palace' at 5:00 PM.</p>
+        <p class="ceremony-note">The small family ceremony will take place separately at 3:00 PM.</p>
       </div>
 
       <div class="timeline">
@@ -66,32 +67,17 @@
       </div>
     </section>
 
-    <section id="photos" class="section gallery-section">
-      <div class="section-title">
-        <p class="kicker">Over the years</p>
-        <h2>A Few Favorites</h2>
-        <p>Kayak days, ren faires, date nights, and plenty of reasons to smile.</p>
+    <section id="rsvp" class="rsvp-section">
+      <div class="rsvp-card">
+        <p class="kicker">By October 15, 2026</p>
+        <h2>RSVP</h2>
+        <p>Please respond for everyone in your party through our page on The Knot.</p>
+        <a class="rsvp-button" href="https://www.theknot.com/us/bailey-hallmark-and-jack-stephenson-nov-2026-e4fc3bc4-2d29-4ac3-b4b5-a7463aa567ab/rsvp" target="_blank" rel="noopener">RSVP on The Knot ↗</a>
       </div>
+    </section>
 
-      <div class="gallery-grid">
-        <figure class="gallery-portrait"><img src="assets/engagement-lake.jpg" alt="Bailey and Jack sitting together beside the lake for their engagement photos" loading="lazy"></figure>
-        <figure class="gallery-wide"><img src="assets/silly.jpg" alt="Bailey and Jack making silly faces together" loading="lazy"></figure>
-        <figure class="gallery-wide"><img src="assets/holiday-party-wide.jpg" alt="Bailey and Jack laughing together at a holiday party" loading="lazy"></figure>
-        <figure class="gallery-portrait focal-top"><img src="assets/holiday-party-portrait.jpg" alt="Bailey and Jack dressed up together at a holiday celebration" loading="lazy"></figure>
-        <figure class="gallery-portrait"><img src="assets/pier.jpg" alt="Bailey and Jack standing together on a pier" loading="lazy"></figure>
-        <figure class="gallery-portrait"><img src="assets/party.jpg" alt="Bailey and Jack dressed up together for a party" loading="lazy"></figure>
-        <figure class="gallery-portrait"><img src="assets/dessert-date.jpg" alt="Bailey and Jack sharing dessert on a date" loading="lazy"></figure>
-        <figure class="gallery-wide"><img src="assets/lady-bird-lake.jpg" alt="Bailey and Jack together on Lady Bird Lake" loading="lazy"></figure>
-        <figure class="gallery-portrait"><img src="assets/outdoor-selfie.jpg" alt="Bailey and Jack smiling together outdoors" loading="lazy"></figure>
-        <figure class="gallery-portrait"><img src="assets/halloween.jpg" alt="Bailey and Jack dressed up for Halloween" loading="lazy"></figure>
-        <figure class="gallery-wide"><img src="assets/dance.jpg" alt="Bailey and Jack laughing together on the dance floor" loading="lazy"></figure>
-        <figure class="gallery-wide"><img src="assets/night-out.jpg" alt="Bailey and Jack smiling together on a night out" loading="lazy"></figure>
-        <figure class="gallery-portrait"><img src="assets/city-formal.jpg" alt="Bailey and Jack dressed up together in the city" loading="lazy"></figure>
-        <figure class="gallery-portrait"><img src="assets/renfaire.jpg" alt="Bailey and Jack dressed for a Renaissance festival" loading="lazy"></figure>
-        <figure class="gallery-wide"><img src="assets/kayak-day.jpg" alt="Bailey and Jack enjoying a day on the water" loading="lazy"></figure>
-        <figure class="gallery-half"><img src="assets/mirror-photo.jpg" alt="Bailey and Jack dressed up for a night out" loading="lazy"></figure>
-        <figure class="gallery-half"><img src="assets/ren-faire-pink.jpg" alt="Bailey and Jack in costume at a Renaissance festival" loading="lazy"></figure>
-      </div>
+    <section class="photo-break photo-break-wide" aria-label="Bailey and Jack together on Lady Bird Lake">
+      <img src="assets/lady-bird-lake.jpg" alt="Bailey and Jack together on Lady Bird Lake" loading="lazy">
     </section>
 
     <section id="details" class="section details-section">
@@ -112,7 +98,7 @@
         <article>
           <p class="stamp">02</p>
           <h3>Getting there</h3>
-          <p>There is no guest parking at the venue. Please use Uber or the shuttle provided by the hotel.</p>
+          <p>There is no guest parking at the venue. Please plan to rideshare. Guests can use the following Uber voucher code: <strong class="voucher-code">RYELNNXHUBE</strong></p>
         </article>
 
         <article>
@@ -142,6 +128,28 @@
       </div>
     </section>
 
+    <section id="faq" class="section faq-section">
+      <div class="section-title narrow">
+        <p class="kicker">Useful answers</p>
+        <h2>Questions</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>What can we expect at the reception?</summary><p>A relaxed backyard celebration with dinner, cocktails, dancing, live caricature artists, and a few surprises.</p></details>
+        <details><summary>Will there be smoking?</summary><p>An optional hookah lounge will be available away from the dining space.</p></details>
+        <details><summary>Can I bring my children?</summary><p>Yes. Kids are welcome. Please include them in your RSVP.</p></details>
+        <details><summary>Can I wear heels?</summary><p>Yes, but the reception is outside on grass. Thick heels, wedges, boots, or flats will be much easier than stilettos.</p></details>
+        <details><summary>Is the wedding outdoors?</summary><p>Yes. The reception is a backyard celebration, so please check the forecast and bring a layer if the evening looks cool.</p></details>
+        <details><summary>Can I park at the venue?</summary><p>No guest parking is available on-site. Please use Uber or another rideshare option.</p></details>
+        <details><summary>Can I take photos?</summary><p>Yes. Take photos, have fun, and send us your favorites afterward.</p></details>
+        <details><summary>Will vegetarian food be available?</summary><p>Yes. Please also note any dietary restrictions when you RSVP.</p></details>
+      </div>
+    </section>
+
+    <section class="photo-break photo-break-pair" aria-label="More moments with Bailey and Jack">
+      <img src="assets/pier.jpg" alt="Bailey and Jack standing together on a pier" loading="lazy">
+      <img src="assets/silly.jpg" alt="Bailey and Jack making silly faces together" loading="lazy">
+    </section>
+
     <section id="travel" class="section travel-section">
       <div class="section-title">
         <p class="kicker">Coming to Austin</p>
@@ -162,8 +170,21 @@
         <article>
           <div class="round-number">3</div>
           <h3>Leave the car behind</h3>
-          <p>Uber is easy to use in Austin. Hotel guests will also have access to shuttle transportation.</p>
+          <p>Uber is easy to use in Austin.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="photo-break photo-break-wide" aria-label="Bailey and Jack enjoying a day on the water">
+      <img src="assets/kayak-day.jpg" alt="Bailey and Jack enjoying a day on the water" loading="lazy">
+    </section>
+
+    <section id="registry" class="registry-section section">
+      <div class="registry-card">
+        <p class="kicker">No toaster required</p>
+        <h2>Our 1970s Home Fund</h2>
+        <p>Before it became ours, our 1970s home had just one owner. We feel lucky to be part of its next chapter and want to care for it thoughtfully—making necessary repairs and updates while preserving the original character that made us love it. If you'd like to give a wedding gift, contributions to our home fund will help us continue showing this special house the love it deserves. Celebrating with us is more than enough.</p>
+        <a class="fund-button" href="https://www.theknot.com/us/bailey-hallmark-and-jack-stephenson-nov-2026-e4fc3bc4-2d29-4ac3-b4b5-a7463aa567ab/registry" target="_blank" rel="noopener">Visit our Home Fund ↗</a>
       </div>
     </section>
 
@@ -183,38 +204,23 @@
       </div>
     </section>
 
-    <section id="registry" class="registry-section section">
-      <div class="registry-card">
-        <p class="kicker">No toaster required</p>
-        <h2>Our 1970s Home Fund</h2>
-        <p>Before it became ours, our 1970s home had just one owner. We feel lucky to be part of its next chapter and want to care for it thoughtfully—making necessary repairs and updates while preserving the original character that made us love it. If you'd like to give a wedding gift, contributions to our home fund will help us continue showing this special house the love it deserves. Celebrating with us is more than enough.</p>
-        <a class="fund-button" href="https://www.theknot.com/us/bailey-hallmark-and-jack-stephenson-nov-2026-e4fc3bc4-2d29-4ac3-b4b5-a7463aa567ab/registry" target="_blank" rel="noopener">Visit our Home Fund ↗</a>
+    <section id="photos" class="section gallery-section">
+      <div class="section-title">
+        <p class="kicker">Over the years</p>
+        <h2>A Few Favorites</h2>
+        <p>Kayak days, ren faires, date nights, and plenty of reasons to smile.</p>
       </div>
-    </section>
 
-    <section id="faq" class="section faq-section">
-      <div class="section-title narrow">
-        <p class="kicker">Useful answers</p>
-        <h2>Questions</h2>
-      </div>
-      <div class="faq-list">
-        <details><summary>What can we expect at the reception?</summary><p>A relaxed backyard celebration with dinner, cocktails, dancing, live caricature artists, and a few surprises.</p></details>
-        <details><summary>Will there be smoking?</summary><p>An optional hookah lounge will be available in a designated outdoor area away from the dining space.</p></details>
-        <details><summary>Can I bring my children?</summary><p>Yes. Kids are welcome. Please include them in your RSVP.</p></details>
-        <details><summary>Can I wear heels?</summary><p>Yes, but the reception is outside on grass. Thick heels, wedges, boots, or flats will be much easier than stilettos.</p></details>
-        <details><summary>Is the wedding outdoors?</summary><p>Yes. The reception is a backyard celebration, so please check the forecast and bring a layer if the evening looks cool.</p></details>
-        <details><summary>Can I park at the venue?</summary><p>No guest parking is available on-site. Please use Uber or the hotel shuttle.</p></details>
-        <details><summary>Can I take photos?</summary><p>Yes. Take photos, have fun, and send us your favorites afterward.</p></details>
-        <details><summary>Will vegetarian food be available?</summary><p>Yes. Please also note any dietary restrictions when you RSVP.</p></details>
-      </div>
-    </section>
-
-    <section id="rsvp" class="rsvp-section">
-      <div class="rsvp-card">
-        <p class="kicker">By October 1, 2026</p>
-        <h2>RSVP</h2>
-        <p>Please respond for everyone in your party through our page on The Knot.</p>
-        <a class="rsvp-button" href="https://www.theknot.com/us/bailey-hallmark-and-jack-stephenson-nov-2026-e4fc3bc4-2d29-4ac3-b4b5-a7463aa567ab/rsvp" target="_blank" rel="noopener">RSVP on The Knot ↗</a>
+      <div class="gallery-grid">
+        <figure class="gallery-portrait"><img src="assets/engagement-lake.jpg" alt="Bailey and Jack sitting together beside the lake for their engagement photos" loading="lazy"></figure>
+        <figure class="gallery-wide"><img src="assets/holiday-party-wide.jpg" alt="Bailey and Jack laughing together at a holiday party" loading="lazy"></figure>
+        <figure class="gallery-portrait focal-top"><img src="assets/holiday-party-portrait.jpg" alt="Bailey and Jack dressed up together at a holiday celebration" loading="lazy"></figure>
+        <figure class="gallery-portrait"><img src="assets/outdoor-selfie.jpg" alt="Bailey and Jack smiling together outdoors" loading="lazy"></figure>
+        <figure class="gallery-portrait"><img src="assets/halloween.jpg" alt="Bailey and Jack dressed up for Halloween" loading="lazy"></figure>
+        <figure class="gallery-portrait"><img src="assets/city-formal.jpg" alt="Bailey and Jack dressed up together in the city" loading="lazy"></figure>
+        <figure class="gallery-portrait"><img src="assets/renfaire.jpg" alt="Bailey and Jack dressed for a Renaissance festival" loading="lazy"></figure>
+        <figure class="gallery-half"><img src="assets/ren-faire-pink.jpg" alt="Bailey and Jack in costume at a Renaissance festival" loading="lazy"></figure>
+        <figure class="gallery-wide"><img src="assets/dance.jpg" alt="Bailey and Jack laughing together on the dance floor" loading="lazy"></figure>
       </div>
     </section>
   </main>
@@ -224,6 +230,6 @@
     <div>November 7, 2026 · Austin, Texas</div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=12"></script>
 </body>
 </html>

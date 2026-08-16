@@ -22,4 +22,3 @@ Upload the full folder to Netlify Drop, GitHub Pages, Cloudflare Pages, or Verce
 ## Still to add
 - Final ceremony address/details
 - The two hotel booking links
-- Hotel shuttle specifics
